@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Praktikum 2</title>
+</head>
+
+<body>
+
+  <h2>Formulir pemesanan (booking) perjalanan wisata</h2>
+  <p>
+    <b>Author: </b>Hakim Asrori <br>
+    Sabtu, 20 Februari 2021
+  </p>
+  <hr>
+  <form action="index.html" method="GET">
+    <fieldset>
+      <legend>Form Pendaftaran</legend>
+      <input type="hidden" value="FP-001">
+      <table>
+        <tr>
+          <td><label for="nama">Nama Lengkap</label></td>
+          <td>: <input type="text" name="nama" id="nama" required></td>
+        </tr>
+        <tr>
+          <td><label for="jum_pen">Jumlah Penumpang</label></td>
+          <td>:
+            <input type="text" id="jum_pen" name="jum_pen" required>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>&nbsp;&nbsp;<input type="text" name="asal" placeholder="Kota asal...." required></td>
+          <td><input type="text" name="tujuan" placeholder="Kota tujuan...." required></td>
+        </tr>
+        <tr>
+          <td>Pulang Pergi?</td>
+          <td>&nbsp;<input type="radio" name="pp">Ya</td>
+          <td><input type="radio" name="pp" checked>Tidak</td>
+        </tr>
+        <tr>
+          <td>Tanggal Berangkat</td>
+          <td>: <input type="date" required></td>
+        </tr>
+        <tr>
+          <td>Bukti Pembayaran</td>
+          <td>: <input type="file" accept="image/*" required></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>&nbsp;&nbsp;<textarea name="kepuasan" cols="30"
+              rows="10">Ceritakan pengalaman anda menggunakan layanan kami...</textarea></td>
+        </tr>
+      </table>
+      <input type="submit" value="Check-Out">
+    </fieldset>
+  </form>
+  <hr>
+  <p>Tautan yang berguna lainnya:</p>
+  <ul>
+    <li><a href="index.html">Satwa iconic khas Indonesia</a></li>
+    <li><a href="info.html">Tabel informasi hewan endemik Indonesia</a></li>
+  </ul>
+  <hr>
+  Jika Anda tertarik menjadi Pemrogram Aplikasi, sampaikan pesan melalui <a
+    href="mailto: saneglos005@gmail.com">email</a>.
+</body>
+
+</html>
